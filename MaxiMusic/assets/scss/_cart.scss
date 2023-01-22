@@ -1,0 +1,69 @@
+/* Carrito*/
+.iconito {
+    font-size: 35px;
+    color: orange;
+}
+
+.card {
+    width: 25rem;
+    margin-bottom: 10px;
+}
+
+.bar {
+    position: relative;
+}
+
+nav:hover .contCart {
+    display: block;
+
+}
+
+.contCart {
+    display: none;
+    overflow-y: scroll;
+    position: absolute;
+    max-height: 300px;
+    top: 100%;
+    right: 0;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.973);
+    border-radius: 2px;
+    padding: 25px;
+}
+
+.cartElement {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    td {
+        padding: 10px;
+    }
+}
+.containerEmpty {
+    display: flex;
+    justify-content: center;
+}
+
+.total {
+    font-weight: bold;
+    display: flex;
+    justify-content: end;
+}
+
+.totalCart {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.cartImg {
+    width: 50px;
+    margin: 20px;
+}
+.none {
+    display: none;
+}
+.blck {
+    display: block;
+}
